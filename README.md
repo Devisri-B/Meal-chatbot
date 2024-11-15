@@ -58,39 +58,27 @@ The Meal Chatbot offers an intuitive solution for discovering and filtering reci
     - ⁠"Do you have a pasta recipe without tomatoes?"
     - ⁠"Can I get a salad recipe without nuts?"  
 
-### *Meal Type-Based Questions*  
+#### *Meal Type-Based Questions*  
 - Discover recipes based on meal types, such as breakfast, lunch, dinner, or snacks.
     - ⁠"What are some easy breakfast recipes?"
     -  ⁠"Can I get lunch ideas for work?"
     -   ⁠"What are some light dinner recipes?"
     - "Can you suggest some snacks for a party?"  
 
-### *Special Occasion or Seasonal Questions*  
+#### *Special Occasion or Seasonal Questions*  
 - Find recipes perfect for special occasions or seasonal celebrations
-  -⁠  ⁠"What are some good recipes for Thanksgiving?"  
-  -⁠  ⁠"Can I get Christmas dessert ideas?"  
-  -  ⁠"What are some summer salad recipes?"  
-  -⁠  ⁠"Do you have recipes for Valentine's Day?"  
+    - ⁠"What are some good recipes for Thanksgiving?"
+    - ⁠  ⁠"Can I get Christmas dessert ideas?"  
+  -  ⁠"What are some summer salad recipes?"
+  -   "Do you have recipes for Valentine's Day?"  
 
-### *Cooking Technique-Based Questions* 
+#### *Cooking Technique-Based Questions* 
 - Get recipes based on your preferred cooking method, like baking or grilling
-  -⁠  ⁠"What are some recipes I can bake?"  
+  -  ⁠"What are some recipes I can bake?"  
   -  ⁠"Can I get a recipe that requires no cooking?"  
-  -  ⁠"Do you have recipes for grilling?"  
-  -⁠  ⁠"What recipes can I make with a slow cooker?"  
+  -  ⁠"Do you have recipes for grilling?"
+  -   "What recipes can I make with a slow cooker?"  
 
-### *Cuisine-Based Questions*  
-- Explore recipes from various cuisines and discover dishes from around the world.
-  -⁠  ⁠"Can I get Italian cuisine recipes?"  
-  -  ⁠"What are some Indian breakfast recipes?"   
-  -  ⁠"What are popular Chinese dinner recipes?"
-  -  
-#### Recipe Name Queries
-  - Look up recipes by their exact name or by general categories:
-  - Example queries:
-    - Can I get biryani recipes?
-    - Can I get pancake recipes?
- 
 ## File Structure
 
 - meal_chatbot.py: The backend logic that handles user queries, searches the internal dataset using regular expressions and spaCy, and interacts with the Spoonacular API as needed.
