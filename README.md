@@ -90,3 +90,9 @@ The Meal Chatbot offers an intuitive solution for discovering and filtering reci
 - Internal Dataset Search: Uses regular expressions for pattern matching and spaCy NLP for understanding and extracting relevant entities.
 - API Integration: When the internal search yields no results, a request is sent to the Spoonacular API to fetch relevant recipes.
 - Frontend: Provides a chat-based interface using HTML, CSS, and JavaScript for a dynamic user experience.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests to suggest improvements or new features.
+
+
